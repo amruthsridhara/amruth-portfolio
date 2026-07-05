@@ -1,0 +1,6 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Local backup of original/unoptimised source photos — not for deploy
+images/_originals/
