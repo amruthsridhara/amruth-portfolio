@@ -10,6 +10,8 @@ document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
 // Portfolio filter
 const filters = document.querySelectorAll(".filter");
 const items = document.querySelectorAll(".g-item");
+// make each gallery item focusable so the caption also reveals on keyboard focus / tap
+items.forEach((it) => it.setAttribute("tabindex", "0"));
 filters.forEach((btn) =>
   btn.addEventListener("click", () => {
     filters.forEach((b) => b.classList.remove("on"));
