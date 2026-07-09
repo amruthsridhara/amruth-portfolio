@@ -4,3 +4,10 @@ Thumbs.db
 
 # Local backup of original/unoptimised source photos — not for deploy
 images/_originals/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
